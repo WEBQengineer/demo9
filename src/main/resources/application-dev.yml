@@ -1,0 +1,28 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /luckymoney
+
+limit:
+  minMoney: 1
+  maxMoney: 9999
+  description: 最少要发${limit.minMoney}元,最多${limit.maxMoney}元
+
+logging:
+  path: logs
+  file: mylog.log
+
+spring:
+  application:
+    name: myTest
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.103:3306/course
+#    url: jdbc:mysql://192.168.43.100:3306/course
+    username: root
+    password: 123456
+
+mybatis:
+  type-aliases-package: com.example.model
+  mapper-locations:
+    - mapper/*
