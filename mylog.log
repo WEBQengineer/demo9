@@ -19,3 +19,24 @@ You may wish to exclude one of them to ensure predictable runtime behavior
 2020-04-15 18:58:57.818  INFO 3184 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
 2020-04-15 18:58:57.819  INFO 3184 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-04-15 18:58:57.824  WARN 3184 --- [SpringContextShutdownHook] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'application1' threw an exception: java.lang.NullPointerException
+2020-04-15 20:13:39.958  WARN 6452 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/EduPac/maven_repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/EduPac/maven_repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-04-15 20:13:39.982  INFO 6452 --- [main] com.course.Demo9ApplicationTests         : Starting Demo9ApplicationTests on PC-201912201152 with PID 6452 (started by Administrator in C:\Users\Administrator\Desktop\demo9\demo9)
+2020-04-15 20:13:39.983  INFO 6452 --- [main] com.course.Demo9ApplicationTests         : The following profiles are active: dev
+2020-04-15 20:13:40.871  WARN 6452 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-04-15 20:13:42.886  INFO 6452 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-15 20:13:43.278  INFO 6452 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-04-15 20:13:43.364  INFO 6452 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-04-15 20:13:43.391  INFO 6452 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-04-15 20:13:43.408  INFO 6452 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-04-15 20:13:43.742  INFO 6452 --- [main] com.course.Demo9ApplicationTests         : Started Demo9ApplicationTests in 4.247 seconds (JVM running for 5.566)
+2020-04-15 20:13:44.077  INFO 6452 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-04-15 20:13:44.078  INFO 6452 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-15 20:13:44.083  WARN 6452 --- [SpringContextShutdownHook] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'application1' threw an exception: java.lang.NullPointerException
