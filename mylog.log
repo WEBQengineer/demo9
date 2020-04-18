@@ -1,42 +1,21 @@
-2020-04-15 18:58:51.597  WARN 3184 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/E:/EduPac/maven_repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/E:/EduPac/maven_repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2020-04-15 18:58:51.686  INFO 3184 --- [main] com.course.Demo9ApplicationTests         : Starting Demo9ApplicationTests on PC-201912201152 with PID 3184 (started by Administrator in C:\Users\Administrator\Desktop\demo9\demo9)
-2020-04-15 18:58:51.688  INFO 3184 --- [main] com.course.Demo9ApplicationTests         : The following profiles are active: dev
-2020-04-15 18:58:53.058  WARN 3184 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
-2020-04-15 18:58:56.075  INFO 3184 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-15 18:58:56.640  INFO 3184 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-04-15 18:58:56.734  INFO 3184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-04-15 18:58:56.778  INFO 3184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-04-15 18:58:56.806  INFO 3184 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-04-15 18:58:57.202  INFO 3184 --- [main] com.course.Demo9ApplicationTests         : Started Demo9ApplicationTests in 6.222 seconds (JVM running for 8.151)
-2020-04-15 18:58:57.818  INFO 3184 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-04-15 18:58:57.819  INFO 3184 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-15 18:58:57.824  WARN 3184 --- [SpringContextShutdownHook] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'application1' threw an exception: java.lang.NullPointerException
-2020-04-15 20:13:39.958  WARN 6452 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/E:/EduPac/maven_repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/E:/EduPac/maven_repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2020-04-15 20:13:39.982  INFO 6452 --- [main] com.course.Demo9ApplicationTests         : Starting Demo9ApplicationTests on PC-201912201152 with PID 6452 (started by Administrator in C:\Users\Administrator\Desktop\demo9\demo9)
-2020-04-15 20:13:39.983  INFO 6452 --- [main] com.course.Demo9ApplicationTests         : The following profiles are active: dev
-2020-04-15 20:13:40.871  WARN 6452 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
-2020-04-15 20:13:42.886  INFO 6452 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-15 20:13:43.278  INFO 6452 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-04-15 20:13:43.364  INFO 6452 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-04-15 20:13:43.391  INFO 6452 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-04-15 20:13:43.408  INFO 6452 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-04-15 20:13:43.742  INFO 6452 --- [main] com.course.Demo9ApplicationTests         : Started Demo9ApplicationTests in 4.247 seconds (JVM running for 5.566)
-2020-04-15 20:13:44.077  INFO 6452 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-04-15 20:13:44.078  INFO 6452 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-15 20:13:44.083  WARN 6452 --- [SpringContextShutdownHook] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'application1' threw an exception: java.lang.NullPointerException
+2020-04-17 09:00:30.972  INFO 9536 --- [main] com.course.Application1                  : Starting Application1 on PC-201912201152 with PID 9536 (C:\Users\Administrator\Desktop\demo9\demo9\target\classes started by Administrator in C:\Users\Administrator\Desktop\demo9\demo9)
+2020-04-17 09:00:30.981  INFO 9536 --- [main] com.course.Application1                  : The following profiles are active: dev
+2020-04-17 09:00:32.882  WARN 9536 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-04-17 09:00:33.581  INFO 9536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-04-17 09:00:33.593  INFO 9536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-17 09:00:33.595  INFO 9536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-17 09:00:33.799  INFO 9536 --- [main] o.a.c.c.C.[.[localhost].[/luckymoney]    : Initializing Spring embedded WebApplicationContext
+2020-04-17 09:00:33.799  INFO 9536 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2624 ms
+2020-04-17 09:00:35.044  INFO 9536 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-17 09:00:35.215  INFO 9536 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-04-17 09:00:35.244  INFO 9536 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-04-17 09:00:35.281  INFO 9536 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-04-17 09:00:35.294  INFO 9536 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-04-17 09:00:35.615  INFO 9536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/luckymoney'
+2020-04-17 09:00:35.618  INFO 9536 --- [main] com.course.Application1                  : Started Application1 in 5.611 seconds (JVM running for 7.074)
+2020-04-17 09:01:54.512  INFO 9536 --- [http-nio-8082-exec-2] o.a.c.c.C.[.[localhost].[/luckymoney]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-17 09:01:54.512  INFO 9536 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-17 09:01:54.522  INFO 9536 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-04-17 09:01:54.538  WARN 9536 --- [http-nio-8082-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-17 09:02:35.656  INFO 9536 --- [http-nio-8082-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-17 09:02:37.119  INFO 9536 --- [http-nio-8082-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
